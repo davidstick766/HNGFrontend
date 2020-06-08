@@ -1,0 +1,53 @@
+.bg-section {
+    background:	#8d4a4a;
+}
+
+.ft-contact h1 {
+    color: #fff;
+    margin-top: 13%;
+    font-size: 25px;
+    text-decoration: dotted;
+}
+
+.ft-contact p {
+    color: #fff;
+    font-size: 15px;
+}
+
+
+.ft-booking h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 13%;
+    padding-left: 30%;
+}
+
+.ft-booking input {
+    width: 40%;
+    margin-top: 5%;
+    /* padding-right: 15px; */
+}
+
+.ft-policy  {
+    margin-top: 7%;
+    color: #fff;
+    
+}
+
+.follow h3 {
+    color: #fff;
+}
+
+.social {
+    list-style: none;
+    display: flex !important;
+    padding-left: 2em;
+}
+
+.follow i {
+    padding-left: 2em;
+    text-align: center;
+}
+
+

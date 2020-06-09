@@ -21,6 +21,9 @@ a {
   padding: 1rem;
   height: 100px;
 }
+.h1 {
+  margin-top: 0.2rem;
+}
 
 .bar ul {
   display: flex;
@@ -94,7 +97,7 @@ a {
 
 /* showcase starts here */
 .show {
-  background: url(images/photo1.jpg) no-repeat center center/cover;
+  background: url(images/IMG-20200609-WA0003.jpg) no-repeat center center/cover;
   height: 600px;
   position: relative;
 }
@@ -158,7 +161,7 @@ hr {
 }
 .afr-box {
   background: #ffffff;
-  height: 300px;
+  height: 350px;
   padding: 2rem 3rem 0 2rem;
   line-height: 30px;
 
@@ -187,7 +190,22 @@ hr {
 }
 .ro .to img {
   width: 800px;
-  height: 500px;
+  height: 600px;
+}
+.p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 3rem 0 2rem;
+  line-height: 20px;
+}
+.buttontwo {
+  padding: 1rem 1.5rem;
+  color: #ffffff;
+  background: #612b21;
+  border: none;
+  margin-left: 2rem;
+  border-radius: 5px;
 }
 .to1 {
   position: absolute;
@@ -199,6 +217,9 @@ hr {
 }
 /* media quuries */
 @media (max-width: 500px) {
+  body {
+    width: 100vw;
+  }
   .bar {
     padding-top: 0.2rem;
     height: 90px;
@@ -229,7 +250,7 @@ hr {
   .up {
     margin-inline-start: 0rem;
     top: 550px;
-    width: 355px;
+    width: 365px;
     margin: 0 0rem 0 rem;
     padding-left: 0;
     padding-right: 0;
@@ -286,7 +307,7 @@ hr {
     border: none;
   }
 }
-@media (max-width: 990px) {
+@media (min-width: 800px) and (max-width: 1000px) {
   .up {
     margin-inline-start: 10rem;
     top: 650px;
@@ -329,7 +350,7 @@ hr {
     padding-bottom: 1rem;
   }
   .img22 {
-    height: 600px;
+    height: 1000px;
     width: 100%;
     overflow: hidden;
   }
@@ -338,7 +359,7 @@ hr {
     color: #ffffff;
     background: #612b21;
     border: none;
-    margin-left: 1rem;
+    margin-left: 3rem;
     border-radius: 5px;
   }
   .p {
